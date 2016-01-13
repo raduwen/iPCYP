@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0EE427D1C46901F00962428 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EE427C1C46901F00962428 /* main.m */; };
+		D0EE427F1C46901F00962428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0EE427E1C46901F00962428 /* Assets.xcassets */; };
+		D0EE42821C46901F00962428 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0EE42801C46901F00962428 /* MainMenu.xib */; };
+		D0EE428D1C46901F00962428 /* iPCYPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EE428C1C46901F00962428 /* iPCYPTests.m */; };
+		D0EE42981C46902000962428 /* iPCYPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EE42971C46902000962428 /* iPCYPUITests.m */; };
+		D0EE42AB1C46904100962428 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0EE42A91C46904100962428 /* MainWindowController.xib */; };
+		D0EE42AE1C46905F00962428 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EE42AD1C46905F00962428 /* MainWindowController.m */; };
+		D0EE42B61C4690A800962428 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EE42B51C4690A800962428 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0EE42891C46901F00962428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0EE426D1C46901F00962428 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0EE42741C46901F00962428;
+			remoteInfo = iPCYP;
+		};
+		D0EE42941C46902000962428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0EE426D1C46901F00962428 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0EE42741C46901F00962428;
+			remoteInfo = iPCYP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0EE42751C46901F00962428 /* iPCYP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPCYP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EE427C1C46901F00962428 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0EE427E1C46901F00962428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0EE42811C46901F00962428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D0EE42831C46901F00962428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0EE42881C46901F00962428 /* iPCYPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPCYPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EE428C1C46901F00962428 /* iPCYPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPCYPTests.m; sourceTree = "<group>"; };
+		D0EE428E1C46901F00962428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0EE42931C46902000962428 /* iPCYPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPCYPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EE42971C46902000962428 /* iPCYPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPCYPUITests.m; sourceTree = "<group>"; };
+		D0EE42991C46902000962428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0EE42AA1C46904100962428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainWindowController.xib; sourceTree = "<group>"; };
+		D0EE42AC1C46905F00962428 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainWindowController.h; path = Controllers/MainWindowController.h; sourceTree = "<group>"; };
+		D0EE42AD1C46905F00962428 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainWindowController.m; path = Controllers/MainWindowController.m; sourceTree = "<group>"; };
+		D0EE42B41C4690A800962428 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Delegates/AppDelegate.h; sourceTree = "<group>"; };
+		D0EE42B51C4690A800962428 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Delegates/AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0EE42721C46901F00962428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EE42851C46901F00962428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EE42901C46902000962428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0EE426C1C46901F00962428 = {
+			isa = PBXGroup;
+			children = (
+				D0EE42771C46901F00962428 /* iPCYP */,
+				D0EE428B1C46901F00962428 /* iPCYPTests */,
+				D0EE42961C46902000962428 /* iPCYPUITests */,
+				D0EE42761C46901F00962428 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0EE42761C46901F00962428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0EE42751C46901F00962428 /* iPCYP.app */,
+				D0EE42881C46901F00962428 /* iPCYPTests.xctest */,
+				D0EE42931C46902000962428 /* iPCYPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0EE42771C46901F00962428 /* iPCYP */ = {
+			isa = PBXGroup;
+			children = (
+				D0EE42B11C46909500962428 /* Delegates */,
+				D0EE42AF1C46906800962428 /* Controllers */,
+				D0EE42B01C46907500962428 /* Views */,
+				D0EE427E1C46901F00962428 /* Assets.xcassets */,
+				D0EE42831C46901F00962428 /* Info.plist */,
+				D0EE427B1C46901F00962428 /* Supporting Files */,
+			);
+			path = iPCYP;
+			sourceTree = "<group>";
+		};
+		D0EE427B1C46901F00962428 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0EE427C1C46901F00962428 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0EE428B1C46901F00962428 /* iPCYPTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0EE428C1C46901F00962428 /* iPCYPTests.m */,
+				D0EE428E1C46901F00962428 /* Info.plist */,
+			);
+			path = iPCYPTests;
+			sourceTree = "<group>";
+		};
+		D0EE42961C46902000962428 /* iPCYPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0EE42971C46902000962428 /* iPCYPUITests.m */,
+				D0EE42991C46902000962428 /* Info.plist */,
+			);
+			path = iPCYPUITests;
+			sourceTree = "<group>";
+		};
+		D0EE42AF1C46906800962428 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0EE42AC1C46905F00962428 /* MainWindowController.h */,
+				D0EE42AD1C46905F00962428 /* MainWindowController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D0EE42B01C46907500962428 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0EE42801C46901F00962428 /* MainMenu.xib */,
+				D0EE42A91C46904100962428 /* MainWindowController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D0EE42B11C46909500962428 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				D0EE42B41C4690A800962428 /* AppDelegate.h */,
+				D0EE42B51C4690A800962428 /* AppDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0EE42741C46901F00962428 /* iPCYP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0EE429C1C46902000962428 /* Build configuration list for PBXNativeTarget "iPCYP" */;
+			buildPhases = (
+				D0EE42711C46901F00962428 /* Sources */,
+				D0EE42721C46901F00962428 /* Frameworks */,
+				D0EE42731C46901F00962428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPCYP;
+			productName = iPCYP;
+			productReference = D0EE42751C46901F00962428 /* iPCYP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0EE42871C46901F00962428 /* iPCYPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0EE429F1C46902000962428 /* Build configuration list for PBXNativeTarget "iPCYPTests" */;
+			buildPhases = (
+				D0EE42841C46901F00962428 /* Sources */,
+				D0EE42851C46901F00962428 /* Frameworks */,
+				D0EE42861C46901F00962428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0EE428A1C46901F00962428 /* PBXTargetDependency */,
+			);
+			name = iPCYPTests;
+			productName = iPCYPTests;
+			productReference = D0EE42881C46901F00962428 /* iPCYPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0EE42921C46902000962428 /* iPCYPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0EE42A21C46902000962428 /* Build configuration list for PBXNativeTarget "iPCYPUITests" */;
+			buildPhases = (
+				D0EE428F1C46902000962428 /* Sources */,
+				D0EE42901C46902000962428 /* Frameworks */,
+				D0EE42911C46902000962428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0EE42951C46902000962428 /* PBXTargetDependency */,
+			);
+			name = iPCYPUITests;
+			productName = iPCYPUITests;
+			productReference = D0EE42931C46902000962428 /* iPCYPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0EE426D1C46901F00962428 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = raduwen;
+				TargetAttributes = {
+					D0EE42741C46901F00962428 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D0EE42871C46901F00962428 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D0EE42741C46901F00962428;
+					};
+					D0EE42921C46902000962428 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D0EE42741C46901F00962428;
+					};
+				};
+			};
+			buildConfigurationList = D0EE42701C46901F00962428 /* Build configuration list for PBXProject "iPCYP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0EE426C1C46901F00962428;
+			productRefGroup = D0EE42761C46901F00962428 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0EE42741C46901F00962428 /* iPCYP */,
+				D0EE42871C46901F00962428 /* iPCYPTests */,
+				D0EE42921C46902000962428 /* iPCYPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0EE42731C46901F00962428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EE427F1C46901F00962428 /* Assets.xcassets in Resources */,
+				D0EE42AB1C46904100962428 /* MainWindowController.xib in Resources */,
+				D0EE42821C46901F00962428 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EE42861C46901F00962428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EE42911C46902000962428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0EE42711C46901F00962428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EE42AE1C46905F00962428 /* MainWindowController.m in Sources */,
+				D0EE427D1C46901F00962428 /* main.m in Sources */,
+				D0EE42B61C4690A800962428 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EE42841C46901F00962428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EE428D1C46901F00962428 /* iPCYPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EE428F1C46902000962428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EE42981C46902000962428 /* iPCYPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0EE428A1C46901F00962428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0EE42741C46901F00962428 /* iPCYP */;
+			targetProxy = D0EE42891C46901F00962428 /* PBXContainerItemProxy */;
+		};
+		D0EE42951C46902000962428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0EE42741C46901F00962428 /* iPCYP */;
+			targetProxy = D0EE42941C46902000962428 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0EE42801C46901F00962428 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0EE42811C46901F00962428 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D0EE42A91C46904100962428 /* MainWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0EE42AA1C46904100962428 /* Base */,
+			);
+			name = MainWindowController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0EE429A1C46902000962428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D0EE429B1C46902000962428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D0EE429D1C46902000962428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iPCYP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raduwen.iPCYP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0EE429E1C46902000962428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iPCYP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raduwen.iPCYP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0EE42A01C46902000962428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iPCYPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raduwen.iPCYPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPCYP.app/Contents/MacOS/iPCYP";
+			};
+			name = Debug;
+		};
+		D0EE42A11C46902000962428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iPCYPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raduwen.iPCYPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPCYP.app/Contents/MacOS/iPCYP";
+			};
+			name = Release;
+		};
+		D0EE42A31C46902000962428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iPCYPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raduwen.iPCYPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iPCYP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D0EE42A41C46902000962428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iPCYPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raduwen.iPCYPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iPCYP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0EE42701C46901F00962428 /* Build configuration list for PBXProject "iPCYP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EE429A1C46902000962428 /* Debug */,
+				D0EE429B1C46902000962428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0EE429C1C46902000962428 /* Build configuration list for PBXNativeTarget "iPCYP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EE429D1C46902000962428 /* Debug */,
+				D0EE429E1C46902000962428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0EE429F1C46902000962428 /* Build configuration list for PBXNativeTarget "iPCYPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EE42A01C46902000962428 /* Debug */,
+				D0EE42A11C46902000962428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0EE42A21C46902000962428 /* Build configuration list for PBXNativeTarget "iPCYPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EE42A31C46902000962428 /* Debug */,
+				D0EE42A41C46902000962428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0EE426D1C46901F00962428 /* Project object */;
+}

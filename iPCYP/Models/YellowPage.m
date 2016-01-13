@@ -18,6 +18,7 @@
 
   self.name = name;
   self.url = url;
+  self.channels = @[];
 
   return self;
 }

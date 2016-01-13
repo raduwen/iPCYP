@@ -20,10 +20,15 @@
 {
   self = [super initWithNibName:nibNameOrNil bundle: nibBundleOrNil];
 
-  self.yp = [[YellowPage alloc] initWithName:@"TP" url:@"http://temp.orz.hm/yp/index.txt"];
-  self.yp.channels = @[];
+  // TODO: load from configuration file
+  self.yellowPages = @[
+    [[YellowPage alloc] initWithName:@"TP" url:@"http://temp.orz.hm/yp/index.txt"],
+    [[YellowPage alloc] initWithName:@"SP" url:@"http://bayonet.ddo.jp/sp/index.txt"]
+  ];
 
-  [self.yp pullChannelsWithChannelsVC:self];
+  [self.yellowPages enumerateObjectsUsingBlock:^(YellowPage *yp, NSUInteger idx, BOOL *stop) {
+    [yp pullChannelsWithChannelsVC:self];
+  }];
 
   return self;
 }
@@ -38,17 +43,29 @@
 
 - (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView
 {
-  // TODO: channels count for each yellow pages
-  return [self.yp.channels count];
+  __block NSInteger count = 0;
+
+  [self.yellowPages enumerateObjectsUsingBlock:^(YellowPage *yp, NSUInteger idx, BOOL *stop) {
+    count += [yp.channels count];
+  }];
+
+  NSLog(@"%ld", count);
+
+  return count;
 }
 
 - (id)tableView:(NSTableView *)tableView objectValueForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row
 {
-  // TODO: channel from yellow pages
+  __block NSInteger i = 0;
+  __block Channel *channel;
+  [self.yellowPages enumerateObjectsUsingBlock:^(YellowPage *yp, NSUInteger idx, BOOL *stop) {
+    [yp.channels enumerateObjectsUsingBlock:^(Channel *ch, NSUInteger _idx, BOOL *_stop) {
+      if (i == row) channel = ch;
+      i++;
+    }];
+  }];
 
-  Channel *channel = self.yp.channels[row];
   NSString *text;
-
   if ([[tableColumn identifier] isEqualToString:@"name"]) {
     text = channel.name;
   } else if ([[tableColumn identifier] isEqualToString:@"identity"]) {

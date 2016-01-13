@@ -13,6 +13,7 @@
 @interface ChannelsViewController : NSViewController <NSTableViewDataSource>
 
 @property (nonatomic, strong) YellowPage *yp;
+@property (nonatomic, strong) NSArray *yellowPages;
 
 @property (weak) IBOutlet NSTableView *tableView;
 

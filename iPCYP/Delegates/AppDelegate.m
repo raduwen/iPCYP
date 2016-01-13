@@ -22,6 +22,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
   [self.mainWC showWindow:self];
+
+  // http://temp.orz.hm/yp/index.txt
+  // http://bayonet.ddo.jp/sp/index.txt
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

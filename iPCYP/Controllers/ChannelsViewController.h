@@ -8,8 +8,14 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class YellowPage;
+
 @interface ChannelsViewController : NSViewController <NSTableViewDataSource>
 
-@property (nonatomic, strong) NSMutableArray *channels;
+@property (nonatomic, strong) YellowPage *yp;
+
+@property (weak) IBOutlet NSTableView *tableView;
+
+- (void)updateYellowPage:(id)sender;
 
 @end

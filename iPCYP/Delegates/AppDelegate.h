@@ -10,7 +10,7 @@
 
 @class MainWindowController;
 
-@interface AppDelegate : NSObject <NSApplicationDelegate, NSURLSessionDownloadDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (nonatomic, strong) MainWindowController *mainWC;
 

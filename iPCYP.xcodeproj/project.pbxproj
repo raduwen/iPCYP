@@ -18,6 +18,7 @@
 		D0EE42BB1C46A62400962428 /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EE42BA1C46A62400962428 /* Channel.m */; };
 		D0EE42BF1C46B36700962428 /* ChannelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EE42BD1C46B36700962428 /* ChannelsViewController.m */; };
 		D0EE42C31C46B37A00962428 /* ChannelsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0EE42C11C46B37A00962428 /* ChannelsViewController.xib */; };
+		D0EE42C71C46CBF000962428 /* YellowPage.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EE42C61C46CBF000962428 /* YellowPage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		D0EE42BC1C46B36700962428 /* ChannelsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChannelsViewController.h; path = Controllers/ChannelsViewController.h; sourceTree = "<group>"; };
 		D0EE42BD1C46B36700962428 /* ChannelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChannelsViewController.m; path = Controllers/ChannelsViewController.m; sourceTree = "<group>"; };
 		D0EE42C21C46B37A00962428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ChannelsViewController.xib; sourceTree = "<group>"; };
+		D0EE42C51C46CBF000962428 /* YellowPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YellowPage.h; path = Models/YellowPage.h; sourceTree = "<group>"; };
+		D0EE42C61C46CBF000962428 /* YellowPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YellowPage.m; path = Models/YellowPage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +182,8 @@
 		D0EE42B81C46A5E200962428 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D0EE42C51C46CBF000962428 /* YellowPage.h */,
+				D0EE42C61C46CBF000962428 /* YellowPage.m */,
 				D0EE42B91C46A62400962428 /* Channel.h */,
 				D0EE42BA1C46A62400962428 /* Channel.m */,
 			);
@@ -316,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EE42C71C46CBF000962428 /* YellowPage.m in Sources */,
 				D0EE42AE1C46905F00962428 /* MainWindowController.m in Sources */,
 				D0EE42BB1C46A62400962428 /* Channel.m in Sources */,
 				D0EE427D1C46901F00962428 /* main.m in Sources */,
@@ -557,6 +563,7 @@
 				D0EE429E1C46902000962428 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0EE429F1C46902000962428 /* Build configuration list for PBXNativeTarget "iPCYPTests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +572,7 @@
 				D0EE42A11C46902000962428 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0EE42A21C46902000962428 /* Build configuration list for PBXNativeTarget "iPCYPUITests" */ = {
 			isa = XCConfigurationList;
@@ -573,6 +581,7 @@
 				D0EE42A41C46902000962428 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

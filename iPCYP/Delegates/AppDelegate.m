@@ -25,7 +25,7 @@
 
   // http://temp.orz.hm/yp/index.txt
   // http://bayonet.ddo.jp/sp/index.txt
-
+/***
   NSString* identifier = @"BackgroundSessionConfiguration";
   NSURLSessionConfiguration* configuration = [NSURLSessionConfiguration backgroundSessionConfigurationWithIdentifier:identifier];
   NSURLSession *session = [NSURLSession sessionWithConfiguration:configuration delegate:self delegateQueue:nil];
@@ -41,6 +41,7 @@
 
   NSURLSessionDownloadTask *task = [session downloadTaskWithURL:requestURL];
   [task resume];
+***/
 }
 
 - (void)URLSession:(NSURLSession *)session downloadTask:(NSURLSessionDownloadTask *)downloadTask didFinishDownloadingToURL:(NSURL *)location

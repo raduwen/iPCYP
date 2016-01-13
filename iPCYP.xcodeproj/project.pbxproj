@@ -16,6 +16,8 @@
 		D0EE42AE1C46905F00962428 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EE42AD1C46905F00962428 /* MainWindowController.m */; };
 		D0EE42B61C4690A800962428 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EE42B51C4690A800962428 /* AppDelegate.m */; };
 		D0EE42BB1C46A62400962428 /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EE42BA1C46A62400962428 /* Channel.m */; };
+		D0EE42BF1C46B36700962428 /* ChannelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EE42BD1C46B36700962428 /* ChannelsViewController.m */; };
+		D0EE42C31C46B37A00962428 /* ChannelsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0EE42C11C46B37A00962428 /* ChannelsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		D0EE42B51C4690A800962428 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Delegates/AppDelegate.m; sourceTree = "<group>"; };
 		D0EE42B91C46A62400962428 /* Channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Channel.h; path = Models/Channel.h; sourceTree = "<group>"; };
 		D0EE42BA1C46A62400962428 /* Channel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Channel.m; path = Models/Channel.m; sourceTree = "<group>"; };
+		D0EE42BC1C46B36700962428 /* ChannelsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChannelsViewController.h; path = Controllers/ChannelsViewController.h; sourceTree = "<group>"; };
+		D0EE42BD1C46B36700962428 /* ChannelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChannelsViewController.m; path = Controllers/ChannelsViewController.m; sourceTree = "<group>"; };
+		D0EE42C21C46B37A00962428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ChannelsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +151,8 @@
 			children = (
 				D0EE42AC1C46905F00962428 /* MainWindowController.h */,
 				D0EE42AD1C46905F00962428 /* MainWindowController.m */,
+				D0EE42BC1C46B36700962428 /* ChannelsViewController.h */,
+				D0EE42BD1C46B36700962428 /* ChannelsViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -155,6 +162,7 @@
 			children = (
 				D0EE42801C46901F00962428 /* MainMenu.xib */,
 				D0EE42A91C46904100962428 /* MainWindowController.xib */,
+				D0EE42C11C46B37A00962428 /* ChannelsViewController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -282,6 +290,7 @@
 			files = (
 				D0EE427F1C46901F00962428 /* Assets.xcassets in Resources */,
 				D0EE42AB1C46904100962428 /* MainWindowController.xib in Resources */,
+				D0EE42C31C46B37A00962428 /* ChannelsViewController.xib in Resources */,
 				D0EE42821C46901F00962428 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +320,7 @@
 				D0EE42BB1C46A62400962428 /* Channel.m in Sources */,
 				D0EE427D1C46901F00962428 /* main.m in Sources */,
 				D0EE42B61C4690A800962428 /* AppDelegate.m in Sources */,
+				D0EE42BF1C46B36700962428 /* ChannelsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +370,14 @@
 				D0EE42AA1C46904100962428 /* Base */,
 			);
 			name = MainWindowController.xib;
+			sourceTree = "<group>";
+		};
+		D0EE42C11C46B37A00962428 /* ChannelsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0EE42C21C46B37A00962428 /* Base */,
+			);
+			name = ChannelsViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

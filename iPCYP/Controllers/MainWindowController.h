@@ -8,6 +8,10 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class ChannelsViewController;
+
 @interface MainWindowController : NSWindowController
+
+@property (nonatomic, strong) ChannelsViewController *channelsVC;
 
 @end
